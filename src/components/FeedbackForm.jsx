@@ -4,8 +4,9 @@ import Button from "./shared/Button";
 import { useState } from "react";
 import RatingSelect from "./RatingSelect";
 import FeedbackContext from "../context/FeedbackContext";
-//this is form
-const FeedbackForm = () => {
+//this is formconst
+
+FeedbackForm = () => {
   const [text, setText] = useState("");
   const [btnDisabled, setBtnDisabled] = useState(true);
   const [message, setMessage] = useState("");
