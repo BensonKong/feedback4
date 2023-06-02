@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+// this is card
 function Card({ children, reverse }) {
   //return <div className={`card ${reverse && "reverse"}`}>{children}</div>;
 
