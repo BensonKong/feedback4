@@ -1,6 +1,6 @@
 import React from "react";
 import spinner from "../assets/spinner.gif";
-
+// this is spinner
 const Spinner = () => {
   return (
     <img
